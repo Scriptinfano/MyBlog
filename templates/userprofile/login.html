@@ -14,7 +14,7 @@
         {% endif %}
         <div class="row">
             <div class="col-12">
-                <br>
+
                 <form method="post" action=".">
                     {% csrf_token %}
 
@@ -29,10 +29,16 @@
                         <input type="password" class="form-control" id="password" name="password">
                     </div>
                     <!-- 提交按钮 -->
-                    <button type="submit" class="btn btn-primary">提交</button>
+                    <button type="submit" class="btn btn-primary">登录</button>
+                    <a href="{% url 'userprofile:register' %}" class="btn btn-secondary">注册</a>
                 </form>
+                <!-- 注册按钮 -->
+
             </div>
+
         </div>
+
+
     </div>
 
 

@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8243d969-5751-4340-8484-39f905df8d9c" name="更改" comment="修复未登录时页头依然显示写文章等字样的错误">
+    <list default="true" id="8243d969-5751-4340-8484-39f905df8d9c" name="更改" comment="改进用户在输入错误密码的情况下跳转到一个空白页面的情况，更改为在登录界面表单的上方直接提示用户输入密码错误">
+      <change afterPath="$PROJECT_DIR$/templates/userprofile/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/userprofile/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/userprofile/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userprofile/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/userprofile/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userprofile/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/userprofile/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userprofile/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userprofile/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +134,7 @@
       <workItem from="1711467340622" duration="1485000" />
       <workItem from="1711469422974" duration="12989000" />
       <workItem from="1711553643285" duration="163000" />
-      <workItem from="1711554014449" duration="17667000" />
+      <workItem from="1711554014449" duration="21967000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -193,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711710776280</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="改进用户在输入错误密码的情况下跳转到一个空白页面的情况，更改为在登录界面表单的上方直接提示用户输入密码错误">
+      <option name="closed" value="true" />
+      <created>1711711780877</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711711780877</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +234,7 @@
     <MESSAGE value="完成修改文章功能，为修改文章和删除文章添加了对应的图标" />
     <MESSAGE value="完成用户的登录和退出" />
     <MESSAGE value="修复未登录时页头依然显示写文章等字样的错误" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复未登录时页头依然显示写文章等字样的错误" />
+    <MESSAGE value="改进用户在输入错误密码的情况下跳转到一个空白页面的情况，更改为在登录界面表单的上方直接提示用户输入密码错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="改进用户在输入错误密码的情况下跳转到一个空白页面的情况，更改为在登录界面表单的上方直接提示用户输入密码错误" />
   </component>
 </project>

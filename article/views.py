@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
@@ -9,6 +10,7 @@ from article.models import ArticlePost
 
 # Create your views here.
 # 视图函数
+
 def article_list(request):
     # 取出所有博客文章
     articles = ArticlePost.objects.all()
@@ -19,6 +21,7 @@ def article_list(request):
 
 
 # 文章详情
+
 def article_detail(request, id):
     # 取出相应的文章
     article = ArticlePost.objects.get(id=id)
@@ -37,6 +40,7 @@ def article_detail(request, id):
 
 
 # 写文章的视图
+
 def article_create(request):
     # 判断用户是否提交数据
     if request.method == "POST":
@@ -47,10 +51,8 @@ def article_create(request):
         if article_post_form.is_valid():
             # 保存数据，但暂时不提交到数据库中
             new_article = article_post_form.save(commit=False)
-            # 指定数据库中 id=1 的用户为作者
-            # 如果你进行过删除数据表的操作，可能会找不到id=1的用户
-            # 此时请重新创建用户，并传入此用户的id
-            new_article.author = User.objects.get(id=1)
+            # 指定作者
+            new_article.author = User.objects.get(id=request.user.id)
             # 将新文章保存到数据库中
             new_article.save()
             # 完成后返回到文章列表
@@ -67,7 +69,9 @@ def article_create(request):
         # 返回模板
         return render(request, 'article/create.html', context)
 
+
 # 删文章
+
 def article_delete(request, id):
     # 根据 id 获取需要删除的文章
     article = ArticlePost.objects.get(id=id)
@@ -76,7 +80,9 @@ def article_delete(request, id):
     # 完成删除后返回文章列表
     return redirect("article:article_list")
 
+
 # 更新文章
+
 def article_update(request, id):
     """
     更新文章的视图函数
@@ -108,6 +114,6 @@ def article_update(request, id):
         # 创建表单类实例
         article_post_form = ArticlePostForm()
         # 赋值上下文，将 article 文章对象也传递进去，以便提取旧的内容
-        context = { 'article': article, 'article_post_form': article_post_form }
+        context = {'article': article, 'article_post_form': article_post_form}
         # 将响应返回到模板中
         return render(request, 'article/update.html', context)
