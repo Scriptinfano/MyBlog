@@ -35,4 +35,4 @@ def user_login(request):
 # 用户退出
 def user_logout(request):
     logout(request)
-    return redirect("article:article_list")
+    return redirect("userprofile:login")

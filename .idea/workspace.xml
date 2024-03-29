@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8243d969-5751-4340-8484-39f905df8d9c" name="更改" comment="完成修改文章功能，为修改文章和删除文章添加了对应的图标">
-      <change afterPath="$PROJECT_DIR$/templates/userprofile/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userprofile/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userprofile/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userprofile/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userprofile/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userprofile/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userprofile/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userprofile/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userprofile/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userprofile/views.py" afterDir="false" />
+    <list default="true" id="8243d969-5751-4340-8484-39f905df8d9c" name="更改" comment="完成用户的登录和退出">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userprofile/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userprofile/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +127,7 @@
       <workItem from="1711467340622" duration="1485000" />
       <workItem from="1711469422974" duration="12989000" />
       <workItem from="1711553643285" duration="163000" />
-      <workItem from="1711554014449" duration="15994000" />
+      <workItem from="1711554014449" duration="16697000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -189,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711707617704</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完成用户的登录和退出">
+      <option name="closed" value="true" />
+      <created>1711710111815</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711710111815</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +209,7 @@
     <MESSAGE value="删除文章功能完成，使用bootstrap提供的模态对话框实现" />
     <MESSAGE value="增加CSRF攻击防范" />
     <MESSAGE value="完成修改文章功能，为修改文章和删除文章添加了对应的图标" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成修改文章功能，为修改文章和删除文章添加了对应的图标" />
+    <MESSAGE value="完成用户的登录和退出" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成用户的登录和退出" />
   </component>
 </project>
