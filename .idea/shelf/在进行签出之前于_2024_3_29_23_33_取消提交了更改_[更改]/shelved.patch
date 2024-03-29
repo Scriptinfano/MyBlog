@@ -1,0 +1,95 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8243d969-5751-4340-8484-39f905df8d9c\" name=\"更改\" comment=\"完成用户的注册\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/db.sqlite3\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/db.sqlite3\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/templates/base.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/templates/base.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/templates/header.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/templates/header.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/userprofile/urls.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/userprofile/urls.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/userprofile/views.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/userprofile/views.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"DjangoConsoleOptions\" custom-start-script=\"import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)\">\r\n    <option name=\"myCustomStartScript\" value=\"import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"Scriptinfano\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"d6c794f1-15ad-4592-8333-215fb6f8e50e\" />\r\n        <option name=\"url\" value=\"git@github.com:Scriptinfano/MyBlog.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 7\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2eEQazidHxPOz4g9TEcJFPeLlHq\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_ADD_EXTERNAL_FILES\": \"true\",\r\n    \"RunOnceActivity.OpenDjangoStructureViewOnStart\": \"true\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"django.template.preview.state\": \"SHOW_EDITOR\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"reference.settingsdialog.IDE.editor.colors.Python\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"DatabaseDriversLRU\": [\r\n      \"sqlite\"\r\n    ]\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\DjangoProject\\Blog\\templates\\userprofile\" />\r\n      <recent name=\"D:\\DjangoProject\\Blog\\static\\fontawesome\" />\r\n      <recent name=\"D:\\DjangoProject\\Blog\\static\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Blog\" type=\"Python.DjangoServer\" factoryName=\"Django server\">\r\n      <module name=\"Blog\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"launchJavascriptDebuger\" value=\"false\" />\r\n      <option name=\"port\" value=\"8000\" />\r\n      <option name=\"host\" value=\"localhost\" />\r\n      <option name=\"additionalOptions\" value=\"\" />\r\n      <option name=\"browserUrl\" value=\"\" />\r\n      <option name=\"runTestServer\" value=\"false\" />\r\n      <option name=\"runNoReload\" value=\"false\" />\r\n      <option name=\"useCustomRunCommand\" value=\"false\" />\r\n      <option name=\"customRunCommand\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"8243d969-5751-4340-8484-39f905df8d9c\" name=\"更改\" comment=\"\" />\r\n      <created>1711467326164</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1711467326164</updated>\r\n      <workItem from=\"1711467340622\" duration=\"1485000\" />\r\n      <workItem from=\"1711469422974\" duration=\"12989000\" />\r\n      <workItem from=\"1711553643285\" duration=\"163000\" />\r\n      <workItem from=\"1711554014449\" duration=\"25378000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"第一次提交\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711621128223</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711621128223</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"第一次提交\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711621153678</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711621153678</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"删除文章完成，删除对话框使用chrome原生对话框\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711705796456</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711705796456</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"删除文章功能完成，使用bootstrap提供的模态对话框实现\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711705980514</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711705980514</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"增加CSRF攻击防范\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711706427852</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711706427852</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"完成修改文章功能，为修改文章和删除文章添加了对应的图标\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711707617704</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711707617704</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"完成用户的登录和退出\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711710111815</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711710111815</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"修复未登录时页头依然显示写文章等字样的错误\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711710776280</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711710776280</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"改进用户在输入错误密码的情况下跳转到一个空白页面的情况，更改为在登录界面表单的上方直接提示用户输入密码错误\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711711780877</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711711780877</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"完成用户的注册\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711720562447</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711720562448</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"11\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"第一次提交\" />\r\n    <MESSAGE value=\"删除文章完成，删除对话框使用chrome原生对话框\" />\r\n    <MESSAGE value=\"删除文章功能完成，使用bootstrap提供的模态对话框实现\" />\r\n    <MESSAGE value=\"增加CSRF攻击防范\" />\r\n    <MESSAGE value=\"完成修改文章功能，为修改文章和删除文章添加了对应的图标\" />\r\n    <MESSAGE value=\"完成用户的登录和退出\" />\r\n    <MESSAGE value=\"修复未登录时页头依然显示写文章等字样的错误\" />\r\n    <MESSAGE value=\"改进用户在输入错误密码的情况下跳转到一个空白页面的情况，更改为在登录界面表单的上方直接提示用户输入密码错误\" />\r\n    <MESSAGE value=\"完成用户的注册\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"完成用户的注册\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,14 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="8243d969-5751-4340-8484-39f905df8d9c" name="更改" comment="完成用户的注册">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/userprofile/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/userprofile/urls.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/userprofile/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userprofile/views.py" afterDir="false" />
+-    </list>
++    <list default="true" id="8243d969-5751-4340-8484-39f905df8d9c" name="更改" comment="完成用户的删除操作" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -28,7 +21,13 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="RESET_MODE" value="HARD" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+   "lastFilter": {
+@@ -43,6 +42,9 @@
+         <option name="url" value="git@github.com:Scriptinfano/MyBlog.git" />
+       </UrlAndAccount>
+     </option>
++  </component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="file://$PROJECT_DIR$/.venv/Lib/site-packages/password_reset/urls.py" root0="FORCE_HIGHLIGHTING" />
+   </component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 7
+@@ -63,7 +65,7 @@
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "django.template.preview.state": "SHOW_EDITOR",
+-    "git-widget-placeholder": "master",
++    "git-widget-placeholder": "134c49dc",
+     "ignore.virus.scanning.warn.message": "true",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+@@ -130,7 +132,7 @@
+       <workItem from="1711467340622" duration="1485000" />
+       <workItem from="1711469422974" duration="12989000" />
+       <workItem from="1711553643285" duration="163000" />
+-      <workItem from="1711554014449" duration="25378000" />
++      <workItem from="1711554014449" duration="27684000" />
+     </task>
+     <task id="LOCAL-00001" summary="第一次提交">
+       <option name="closed" value="true" />
+@@ -212,7 +214,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1711720562448</updated>
+     </task>
+-    <option name="localTasksCounter" value="11" />
++    <task id="LOCAL-00011" summary="完成用户的删除操作">
++      <option name="closed" value="true" />
++      <created>1711724075168</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1711724075168</updated>
++    </task>
++    <option name="localTasksCounter" value="12" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -240,6 +250,7 @@
+     <MESSAGE value="修复未登录时页头依然显示写文章等字样的错误" />
+     <MESSAGE value="改进用户在输入错误密码的情况下跳转到一个空白页面的情况，更改为在登录界面表单的上方直接提示用户输入密码错误" />
+     <MESSAGE value="完成用户的注册" />
+-    <option name="LAST_COMMIT_MESSAGE" value="完成用户的注册" />
++    <MESSAGE value="完成用户的删除操作" />
++    <option name="LAST_COMMIT_MESSAGE" value="完成用户的删除操作" />
+   </component>
+ </project>
+\ No newline at end of file
