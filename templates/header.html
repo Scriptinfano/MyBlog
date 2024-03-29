@@ -1,15 +1,11 @@
 <!-- 定义导航栏 -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-
         <!-- 导航栏商标 -->
         <a class="navbar-brand" href="#">我的博客</a>
-
         <!-- 导航入口 -->
         <div>
             <ul class="navbar-nav">
-
-
                 <!-- Django的 if 模板语句 -->
                 {% if user.is_authenticated %}
                     <!-- 已经登录之后可以使用的功能 -->
@@ -28,12 +24,48 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{% url "userprofile:logout" %}">退出登录</a>
+                            <a class="dropdown-item" href="#" data-toggle="modal"
+                               data-target="#confirmDeleteModal">删除用户</a>
                         </div>
                     </li>
                 {% endif %}
-
             </ul>
         </div>
-
     </div>
 </nav>
+<!-- 模态框 -->
+{% if user.is_authenticated %}
+<div class="modal fade" id="confirmDeleteModal" tabindex="-1" role="dialog" aria-labelledby="confirmDeleteModalLabel"
+     aria-hidden="true">
+    <form
+            style="display:none;"
+            id="user_delete"
+            action="{% url 'userprofile:delete' user.id %}"
+            method="POST"
+    >{% csrf_token %}</form>
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmDeleteModalLabel">确认删除用户</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                确定要删除用户吗？这将无法撤销。
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-danger" id="confirmDeleteBtn">确认删除</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('#confirmDeleteBtn').click(function () {
+                $('#user_delete').submit();
+            });
+        });
+    </script>
+</div>
+{% endif %}
