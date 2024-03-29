@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8243d969-5751-4340-8484-39f905df8d9c" name="更改" comment="删除文章完成，删除对话框使用chrome原生对话框">
+    <list default="true" id="8243d969-5751-4340-8484-39f905df8d9c" name="更改" comment="删除文章功能完成，使用bootstrap提供的模态对话框实现">
       <change beforePath="$PROJECT_DIR$/templates/article/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article/detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +109,7 @@
       <workItem from="1711467340622" duration="1485000" />
       <workItem from="1711469422974" duration="12989000" />
       <workItem from="1711553643285" duration="163000" />
-      <workItem from="1711554014449" duration="12279000" />
+      <workItem from="1711554014449" duration="12750000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -135,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711705796456</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="删除文章功能完成，使用bootstrap提供的模态对话框实现">
+      <option name="closed" value="true" />
+      <created>1711705980514</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711705980514</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +164,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="第一次提交" />
     <MESSAGE value="删除文章完成，删除对话框使用chrome原生对话框" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除文章完成，删除对话框使用chrome原生对话框" />
+    <MESSAGE value="删除文章功能完成，使用bootstrap提供的模态对话框实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除文章功能完成，使用bootstrap提供的模态对话框实现" />
   </component>
 </project>

@@ -42,25 +42,29 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
-                    <a href="{% url 'article:article_delete' article.id %}" class="btn btn-danger">删除</a>
+                    <!-- 添加 CSRF 令牌 -->
+                    <form action="{% url 'article:article_delete' article.id %}" method="post">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-danger">删除</button>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
 
-{#    <script>#}
-{#        // 获取删除文章按钮#}
-{#        var deleteArticleBtn = document.getElementById('deleteArticleBtn');#}
-{#        // 给删除文章按钮添加点击事件处理程序#}
-{#        deleteArticleBtn.addEventListener('click', function (event) {#}
-{#            // 阻止默认的链接行为#}
-{#            event.preventDefault();#}
-{#            // 弹出确认对话框#}
-{#            var confirmDelete = confirm("您确定要删除该文章吗？");#}
-{#            // 如果用户点击确认，则执行跳转#}
-{#            if (confirmDelete) {#}
-{#                window.location.href = "{% url 'article:article_delete' article.id %}";#}
-{#            }#}
-{#        });#}
-{#    </script>#}
+    {#    <script>#}
+    {#        // 获取删除文章按钮#}
+    {#        var deleteArticleBtn = document.getElementById('deleteArticleBtn');#}
+    {#        // 给删除文章按钮添加点击事件处理程序#}
+    {#        deleteArticleBtn.addEventListener('click', function (event) {#}
+    {#            // 阻止默认的链接行为#}
+    {#            event.preventDefault();#}
+    {#            // 弹出确认对话框#}
+    {#            var confirmDelete = confirm("您确定要删除该文章吗？");#}
+    {#            // 如果用户点击确认，则执行跳转#}
+    {#            if (confirmDelete) {#}
+    {#                window.location.href = "{% url 'article:article_delete' article.id %}";#}
+    {#            }#}
+    {#        });#}
+    {#    </script>#}
 {% endblock content %}
