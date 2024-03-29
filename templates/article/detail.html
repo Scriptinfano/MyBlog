@@ -10,17 +10,34 @@
 <!-- 写入 base.html 中定义的 content -->
 {% block content %}
 
-<!-- 文章详情 -->
-<div class="container">
-    <div class="row">
-        <!-- 标题及作者 -->
-        <h1 class="col-12 mt-4 mb-4">{{ article.title }}</h1>
-        <div class="col-12 alert alert-success">作者：{{ article.author }}</div>
-        <!-- 文章正文 -->
-        <div class="col-12">
-            <p>{{ article.body|safe }}</p>
+    <!-- 文章详情 -->
+    <div class="container">
+        <div class="row">
+            <!-- 标题及作者 -->
+            <h1 class="col-12 mt-4 mb-4">{{ article.title }}</h1>
+            <div class="col-12 alert alert-success">作者：{{ article.author }}
+                -><a href="#" id="deleteArticleBtn">删除文章</a>
+            </div>
+            <!-- 文章正文 -->
+            <div class="col-12">
+                <p>{{ article.body|safe }}</p>
+            </div>
+
         </div>
     </div>
-</div>
-
+    <script>
+        // 获取删除文章按钮
+        var deleteArticleBtn = document.getElementById('deleteArticleBtn');
+        // 给删除文章按钮添加点击事件处理程序
+        deleteArticleBtn.addEventListener('click', function (event) {
+            // 阻止默认的链接行为
+            event.preventDefault();
+            // 弹出确认对话框
+            var confirmDelete = confirm("您确定要删除该文章吗？");
+            // 如果用户点击确认，则执行跳转
+            if (confirmDelete) {
+                window.location.href = "{% url 'article:article_delete' article.id %}";
+            }
+        });
+    </script>
 {% endblock content %}
